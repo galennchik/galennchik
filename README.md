@@ -4,4 +4,4 @@
 
 ### Портфолио
 
-- [Тест-кейсы по тренировочному сайту "Собаседник"](https://github.com/artichokeee/checklist)
+- [Тест-кейсы по тренировочному сайту "Собаседник"](https://galennchik.github.io/bugreport/)
