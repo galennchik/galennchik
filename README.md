@@ -1,5 +1,7 @@
 ![Header](https://github.com/galennchik/galennchik/blob/main/assets/ezgif.com-resize.gif)
 
-Обо мне
+## Галеннов Денис - Manual QA
 
-Навыки и инструменты
+### Портфолио
+
+- [Тест-кейсы по тренировочному сайту "Собаседник"](https://github.com/artichokeee/checklist)
