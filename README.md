@@ -6,4 +6,4 @@
 
 - [Тест-кейсы на примере тренировочного сайта "Собаседник"](https://galennchik.github.io/testcase/)
 - [Баг-репорты на примере тренировочного сайта "Собаседник"](https://galennchik.github.io/bugreport/)
-- [Postman-коллекция по GoREST API](https://disk.yandex.ru/d/LVW6iIldUrkKFA) & [Документация](https://gorest.co.in/)
+- [Postman-коллекция по GoREST API](https://disk.yandex.ru/d/LVW6iIldUrkKFA) & [Документация к API](https://gorest.co.in/)
