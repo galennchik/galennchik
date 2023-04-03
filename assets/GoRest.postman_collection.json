@@ -1,0 +1,251 @@
+{
+	"info": {
+		"_postman_id": "a201b2e3-aca1-4832-a18f-845005b7ebb5",
+		"name": "GoRest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24467284"
+	},
+	"item": [
+		{
+			"name": "Создать пользователя с пустым телом запроса",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/users",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создать пользователя",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"Mike Tyson\",\r\n        \"email\": \"miketyson777@yandex.ru\",\r\n        \"gender\": \"male\",\r\n        \"status\": \"active\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/users",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить список всех пользователей",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/users",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить инфо о пользователе",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/users/206140",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"users",
+						"206140"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить  стр.12 списка пользователей",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/users?page=12",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "12"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить инфо о пользователе по имени",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/users?name=Mike+Tyson",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Mike+Tyson"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удалить пользователя",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/users/206140",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"users",
+						"206140"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Изменить имя и почту пользователя",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"Joe Petrov\",\r\n        \"email\": \"joepetrov777@yandex.ru\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/users/206140",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"users",
+						"206140"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Изменить статус и почту пользователя",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"status\": \"inactive\",\r\n    \"email\": \"joeivanov777@yandex.ru\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/users/206140",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"users",
+						"206140"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "cc3e4162c0b1e07964707fc65c09b9154c1ea2830198601a7cf566ec076dc139",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://gorest.co.in/public/v2"
+		}
+	]
+}
