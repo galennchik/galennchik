@@ -4,4 +4,5 @@
 
 ### Портфолио
 
-- [Некоторые мои баг-репорты по тренировочному сайту "Собаседник"](https://galennchik.github.io/bugreport/)
+- [Тест-кейсы на примере тренировочного сайта "Собаседник"](https://galennchik.github.io/testcase/)
+- [Баг-репорты на примере тренировочного сайта "Собаседник"](https://galennchik.github.io/bugreport/)
