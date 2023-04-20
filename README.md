@@ -8,7 +8,7 @@
 
 - [Тест-кейсы на примере тренировочного сайта "Собаседник"](https://galennchik.github.io/testcase/)
 - [Баг-репорты на примере тренировочного сайта "Собаседник"](https://galennchik.github.io/bugreport/)
-- [Postman-коллекция по GoREST API](https://disk.yandex.ru/d/rJrPqWZudUSkqQ) & [Документация к API](https://gorest.co.in/)
+- [Postman-коллекция по GoREST API](https://disk.yandex.ru/d/rJrPqWZudUSkqQ) & [Документация к этому API](https://gorest.co.in/)
 
 ### Социальные сети
 [![VK](https://img.shields.io/badge/-VK-090909?style=for-the-badge&logo=vk)](https://vk.com/galennov)
