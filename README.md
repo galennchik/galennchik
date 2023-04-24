@@ -2,7 +2,7 @@
 
 ## Галеннов Денис - Manual QA
 ## Моё резюме
-[Просмотреть резюме](https://drive.google.com/file/d/1Uv1L_F3xbjOyFjQ70d4pLxt1Vpr7RQ34/view?usp=share_link)
+[Просмотреть резюме](https://drive.google.com/file/d/1jM7NQfmMboa6K1QjLQh_tOXLk1E2TNhF/view?usp=share_link)
 
 ### Портфолио
 
