@@ -1,10 +1,8 @@
 ![Header](https://github.com/galennchik/galennchik/blob/main/assets/ezgif.com-resize.gif)
 
 ## Галеннов Денис - Manual QA
-## Моё резюме
-[Просмотреть резюме](https://drive.google.com/file/d/17vX4_Z9EmjxBrwZJhwQbyPnhcMgMjFCM/view?usp=share_link)
 
-### Портфолио
+### Портфолио (Актуально на 05.02.2023)
 
 - [Тест-кейсы на примере тренировочного сайта "Собаседник"](https://galennchik.github.io/testcase/)
 - [Баг-репорты на примере тренировочного сайта "Собаседник"](https://galennchik.github.io/bugreport/)
